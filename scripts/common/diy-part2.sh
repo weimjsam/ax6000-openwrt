@@ -14,5 +14,3 @@
 sed -i 's/192.168.1.1/192.168.100.1/g' package/base-files/files/bin/config_generate
 git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/luci-app-autotimeset
 
-# Enable Cache
-echo -e 'CONFIG_DEVEL=y\nCONFIG_CCACHE=y' >> .config
